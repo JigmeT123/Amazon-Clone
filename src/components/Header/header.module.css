@@ -4,6 +4,8 @@
     align-items: center;
     background-color: #131921;
     position: sticky;
+
+    justify-content: space-evenly;
     top: 0;
     z-index: 100;
 }
@@ -15,21 +17,22 @@
 }
 .header__search{
     display: flex;
-    flex: 1;
+    flex: 0.8;
     align-items: center;
     border-radius: 24px;
 }
 .header__searchInput{
-   height: 12px;
+   height: 20px;
    outline: none;
-   padding: 10px;
+   padding: 15px;
    border: none;
    width: 100%;
 }
 .header__searchIcon{
-    padding: 5px;
-    height: 22px !important;
-    background-color: #cd9042;
+    padding: 5px !important;
+    height: 30px !important;
+    width: 40px !important;
+    background-color: #cd9042 !important;
 }
 .header__nav{
     display: flex;
@@ -50,4 +53,14 @@
 .header__optionLineTwo{
     font-size: 13px;
     font-weight: 800;
+}
+
+.header__optionBasket{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.header_basketCount{
+    margin-left: 10px;
+    margin-right: 10px;
 }

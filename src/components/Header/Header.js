@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './header.module.css';
-import {Search} from '@material-ui/icons'
+import {Search, ShoppingCart} from '@material-ui/icons'
 const Header = () => {
     return (
         <div className={styles.header}>
@@ -26,6 +26,11 @@ const Header = () => {
                     <span className={styles.header__optionLineOne}>Your</span>
 
                     <span className={styles.header__optionLineTwo}>Prime</span>
+                </div>
+
+                <div className={styles.header__optionBasket}>
+                   <ShoppingCart />
+                   <span className={`${styles.header__optionLineTwo} ${styles.header_basketCount}`}>0</span>
                 </div>
             </div>
         </div>
