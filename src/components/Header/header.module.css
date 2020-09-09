@@ -15,6 +15,10 @@
     margin: 0 20px;
     margin-top: 18px;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
 .header__search{
     display: flex;
     flex: 0.8;
